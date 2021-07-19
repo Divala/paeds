@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.home.registration.diagnosis.DiagnosisFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DIAGNOSIS DETAILS"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/cbPatent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Patent ductus arteriosus" />
+
+                <CheckBox
+                    android:id="@+id/cbRheumatic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Rheumatic Heart Disease" />
+
+                <CheckBox
+                    android:id="@+id/cbTetralogy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Tetralogy of Fallot" />
+
+                <CheckBox
+                    android:id="@+id/cbVertricular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Vertricular Septal Defect" />
+
+                <CheckBox
+                    android:id="@+id/cbDilated"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Dilated Cardiomyopathy" />
+
+
+                <CheckBox
+                    android:id="@+id/cbAtrioventral"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Atrioventral Septal Defect" />
+
+                <CheckBox
+                    android:id="@+id/cbTricuspid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Tricuspid Atresia" />
+
+                <CheckBox
+                    android:id="@+id/cbAtrioseptal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Atrioseptal defect" />
+
+                <CheckBox
+                    android:id="@+id/cbTransposition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Transposition of Great Vessels" />
+
+                <CheckBox
+                    android:id="@+id/cbTruncus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Truncus Arteriosus" />
+
+                <CheckBox
+                    android:id="@+id/cbPulmonaryPulmonary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Pulmonary stenosis" />
+
+                <CheckBox
+                    android:id="@+id/cbPulmonaryAtresia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Pulmonary Atresia" />
+
+                <CheckBox
+                    android:id="@+id/cbAortic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Aortic Stenosis" />
+
+                <CheckBox
+                    android:id="@+id/cbInfectiveEndocarditis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Infective Endocarditis" />
+
+                <CheckBox
+                    android:id="@+id/cbCoarctation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Coarctation of the aorta" />
+
+                <CheckBox
+                    android:id="@+id/cbTotalAnomalous"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Total anomalous pulmonary venous return" />
+
+                <CheckBox
+                    android:id="@+id/cbPartialAnomalous"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Partial anomalous pulmonary venous return." />
+
+                <CheckBox
+                    android:id="@+id/cbDoubleOutlet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Double Outlet right ventricle" />
+
+                <CheckBox
+                    android:id="@+id/cbPulmonaryHypertension"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Pulmonary Hypertension" />
+
+                <CheckBox
+                    android:id="@+id/cbSyncope"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Syncope" />
+
+                <CheckBox
+                    android:id="@+id/cbChestPain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Chest pain" />
+
+                <CheckBox
+                    android:id="@+id/cbArrhythmias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Arrhythmias" />
+
+                <CheckBox
+                    android:id="@+id/cbHeartBlock"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Heart block" />
+
+                <CheckBox
+                    android:id="@+id/cbNormalHeart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Normal heart" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/itOther"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Other(Specify)">
+
+                    <EditText
+                        android:id="@+id/etOther"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textAutoComplete" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="50dp">
+
+                <Button
+                    android:id="@+id/btnBack"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:text="BACK"
+                    android:textColor="@color/colorPrimary"
+                    app:backgroundTint="@android:color/white"
+                    app:cornerRadius="8dp"
+                    app:rippleColor="@color/bottomNav"
+                    app:strokeColor="#C3C3C3"
+                    app:strokeWidth="2dp" />
+
+                <Button
+                    android:id="@+id/btnNext"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toEndOf="@+id/btnBack"
+                    android:text="NEXT"
+                    android:textColor="@color/colorPrimary"
+                    app:backgroundTint="@android:color/white"
+                    app:cornerRadius="8dp"
+                    app:rippleColor="@color/colorPrimary"
+                    app:strokeColor="@color/colorPrimary"
+                    app:strokeWidth="2dp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
